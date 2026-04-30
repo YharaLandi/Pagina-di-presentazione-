@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Yhara Landi|Pagina di Presentazione</title>
+</head>
+<body>
+
+  <h1>Yhara Landi</h1>
+  <p>Curiosa, creativa, perennemente in lettura.</p>
+
+  <h2>Chi sono</h2>
+  <p>
+    Ciao, sono Yhara, appassionata di letteratura gotica, folklore e arte, in cui ho conseguito la mia laurea triennale. Trascorro le mie giornate tra libri, cani e domande senza risposta.
+  </p>
+
+  <h2>Eccomi qui!</h2> 
+  <img src="mia-foto.jpg" alt="Foto" width="200" />
+
+  <h2>Hobbies e Interessi</h2>
+  <ul>
+    <li>Letteratura gotica</li>
+    <li>Anime e manga</li>
+    <li>Folklore e miti</li>
+    <li>Il mio piccolo zoo casalingo costituito da 17 animali</li>
+    <li>Amo sperimentare nuove ricette Veg🌿</li>
+    <li>Cinema</li>
+    <li>Coding web</li>
+  </ul>
+
+  <h2>Esperienze scolastiche e lavorative</h2>
+  <table border="1" cellpadding="8" cellspacing="0">
+    <thead>
+      <tr>
+        <th>Anno</th>
+        <th>Titolo / Ruolo</th>
+        <th>Istituzione</th>
+        <th>Tipo</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2026</td>
+        <td>Corso Full-Stack Web Development</td>
+        <td>EPICODE</td>
+        <td>Formazione</td>
+      </tr>
+      <tr>
+        <td>2026</td>
+        <td>Laurea Triennale Beni culturali e Cinema</td>
+        <td>Univerità degli studi di Salenro</td>
+        <td>Universitario</td>
+      </tr>
+      <tr>
+        <td>2025</td>
+        <td>Master Web Design</td>
+        <td>Ilas</td>
+        <td>Formazione</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+  <h2>Contatti</h2>
+  <p>📧 Email: <a href="landiyhara@gmail.com">landiygara@gmail.com</a></p>
+  <p>📞 Telefono: <a href="tel:+393468956634">+39 3468956634</a></p>
+  <p>💻 GitHub: <a href="https://github.com/YharaLandi" target="_blank">github.com/YharaLandi</a></p>
+  <p>📱 Social: <a href="#">@quasar.genesis</a></p>
+
+</body>
+</html>
