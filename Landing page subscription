@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <title>Registrazione — Music Streaming</title>
+</head>
+<body>
+
+  <h1>Crea il tuo account</h1>
+  <p>Compila il modulo per registrarti alla nostra app di music streaming.</p>
+
+
+  <form onsubmit="alert('Registrazione inviata!');">
+
+    <h2>Dati personali</h2>
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="inserisci il tuo nome"/>
+
+      <label for="cognome">Cognome:</label>
+      <input type="text" id="cognome" name="cognome" placeholder="inserisci il tuo cognome"/>
+
+      <label for="email">Indirizzo email:</label><br />
+      <input type="email" id="email" name="email" placeholder="inserisci la tua mail"/>
+  
+      
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" placeholder="Minimo 8 caratteri" />
+
+  
+      <label for="nascita">Data di nascita:</label>
+      <input type="date" id="nascita" name="nascita"/>
+  
+
+  
+      <label for="telefono">Numero di telefono:</label><br />
+      <input type="number" id="telefono" name="telefono" placeholder="inserisci numero di telefono" />
+  
+
+    <h2>Gusti musicali</h2>
+    <p>Seleziona i generi che preferisci:</p>
+
+  
+      <input type="checkbox" id="pop" name="generi" value="pop" />
+      <label for="pop">Pop</label>
+    
+      <input type="checkbox" id="rock" name="generi" value="rock" />
+      <label for="rock">Rock</label>
+  
+      <input type="checkbox" id="hiphop" name="generi" value="hiphop" />
+      <label for="hiphop">Hip-Hop</label>
+  
+      <input type="checkbox" id="elettronica" name="generi" value="elettronica" />
+      <label for="elettronica">Elettronica</label>
+    
+      <input type="checkbox" id="jazz" name="generi" value="jazz" />
+      <label for="jazz">Jazz</label>
+    
+      <input type="checkbox" id="classica" name="generi" value="classica" />
+      <label for="classica">Classica</label>
+  
+      <input type="checkbox" id="metal" name="generi" value="metal" />
+      <label for="metal">Metal</label>
+    
+
+
+    <h2>Termini e condizioni</h2>
+
+
+      <input type="radio" id="accetto" name="termini" value="si" required />
+      <label for="accetto">Accetto i termini e le condizioni</label>
+
+      <input type="radio" id="non-accetto" name="termini" value="no" />
+      <label for="non-accetto">Non accetto i termini e le condizioni</label>
+
+      <button type="submit">Invia registrazione</button>
+
+  </form>
+
+</body>
+</html>
